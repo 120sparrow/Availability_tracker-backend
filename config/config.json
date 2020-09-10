@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "pass1234",
+    "database": "availability",
+    "host": "database",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "pass1234",
+    "database": "availability_test",
+    "host": "database",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": "pass1234",
+    "database": "availability",
+    "host": "database",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
+
