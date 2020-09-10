@@ -3,28 +3,28 @@ module.exports = {
         return queryInterface.bulkInsert('users', [
             {
                 id: 1,
-                username: 'Konstantin Gritsenko',
-                email: 'gritsenko.konstantin@gmail.com',
-                first_name: 'Konstantin',
-                last_name: 'Gritsenko',
+                username: 'Elon Musk',
+                email: 'spacex@gmail.com',
+                first_name: 'Elon',
+                last_name: 'Musk',
                 created_at: new Date(),
                 updated_at: new Date()
             },
             {
                 id: 2,
-                username: 'Markas Kvitka',
-                email: 'markas.kvitka@gmail.com',
-                first_name: 'Markas',
-                last_name: 'Kvitka',
+                username: 'Jon Dir',
+                email: 'jon.dir@gmail.com',
+                first_name: 'Jon',
+                last_name: 'Dir',
                 created_at: new Date(),
                 updated_at: new Date()
             },
             {
                 id: 3,
-                username: 'Alexandr Borysenko',
-                email: 'doctoraleks50@gmail.com',
+                username: 'Alexandr Popov',
+                email: 'doctorpopov50@gmail.com',
                 first_name: 'Alexandr',
-                last_name: 'Borysenko',
+                last_name: 'Popov',
                 created_at: new Date(),
                 updated_at: new Date()
             },

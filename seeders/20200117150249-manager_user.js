@@ -2,12 +2,6 @@ const factory = require('../di');
 const Op = require('sequelize').Op;
 
 const managerUsers = {
-    'gritsenko.konstantin@gmail.com': [
-        'gritsenko.konstantin@gmail.com',
-        'markas.kvitka@gmail.com',
-        'doctoraleks50@gmail.com',
-        '120sparrow@gmail.com'
-    ],
     '120sparrow@gmail.com': [
         'gritsenko.konstantin@gmail.com',
         'markas.kvitka@gmail.com',
