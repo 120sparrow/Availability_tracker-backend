@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "pass1234",
-    "database": "availability",
+    "database": "availability_tracker",
     "host": "database",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -10,7 +10,7 @@
   "test": {
     "username": "root",
     "password": "pass1234",
-    "database": "availability_test",
+    "database": "availability_tracker_test",
     "host": "database",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -18,7 +18,7 @@
   "production": {
     "username": "root",
     "password": "pass1234",
-    "database": "availability",
+    "database": "availability_tracker",
     "host": "database",
     "dialect": "mysql",
     "operatorsAliases": false

@@ -2,6 +2,10 @@
   "port": {
     "portName": "8091"
   },
+  "google": {
+    "clientID": "941850702995-v2qq71i958g058a2rdk1rsghaqpuv8a3.apps.googleusercontent.com",
+    "clientSecret": "AqFTrmSVVQxICzkIvxjFGezL"
+  },
   "secret": {
     "cookieKey": "M*)o1dNHfY%sIvX?X<>V?}Z4e^!M<qde,T?a:as,cAsMtYV14}~W}wRAtY|c0pm"
   }

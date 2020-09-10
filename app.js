@@ -8,13 +8,28 @@ const ErrorService = require('./services/ErrorService');
 const cookieSession = require('cookie-session');
 const cookieKey = config.get('secret.cookieKey');
 const db = require('./models');
+const passport = require('passport');
+const auth = require('./auth');
+const authorizationMiddleware = require('./middleware/authorization');
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+// passport.js auth and cookie
 app.use(cookieSession({
     secret: cookieKey,
     maxAge: 30 * 24 * 60 * 60 * 1000
+}));
+
+auth(passport);
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use('/api/v1', authorizationMiddleware().unless({
+    path: [
+        /\/auth/,
+        '/api/v1/users/profile'
+    ]
 }));
 
 app.use(router);
